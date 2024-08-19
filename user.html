@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Operations</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .outer{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer"> 
+        <form action="BorrowBooks.jsp" method="post">
+        <input type="submit" value="BorrowBooks">
+        </form>
+        <form action="ReturnBooks.jsp" method="post">
+            <input type="submit" value="ReturnBooks">
+        </form>
+        <form action="CheckAvailability.jsp" method="post">
+            <input type="submit" value="CheckAvailability">
+        </form>
+    </div>
+</body>
+</html>
